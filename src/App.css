@@ -2,37 +2,85 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.homeContainer {
+  width: 60%;
+  margin: auto;
+  padding: 5% 0%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.categorySelectContainer {
+  width: 90%;
+  margin: auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Polaris-Select {
+  margin: 5% 0%;
+}
+
+.attributeSelectContainer {
+  width: 90%;
+  margin: auto;
+}
+
+.eachAttributeSelectDiv
+{
+  width: 100%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
 }
 
-.App-link {
-  color: #61dafb;
+.eachAttributeSelectDiv > div
+{
+  width: 48%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Polaris-Connected
+{
+  margin: 5% 0%;
 }
+
+.addBtnDiv
+{
+  width: 90%;
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  text-align: start;
+  background-color: white;
+  padding: 2% 2%;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.labelPara
+{
+  font-size: 1.3vw;
+  font-weight: bolder;
+  margin: 0% 0%;
+}
+
+.eachAttributeContainer
+{
+  width: 100%;
+  background-color: white;
+  padding: 2% 2%;
+  margin: 5% 0%;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.deleteAttributeBtn
+{
+  width: 100%;
+  text-align: end;
+  color: rgb(15, 101, 221);
+  cursor: pointer;
+}
+
+.btnDivText
+{
+  font-size: 1.5vw;
+  font-weight: bolder;
+}
+
+
